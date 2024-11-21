@@ -1,7 +1,7 @@
 import random
 
 # Password settings
-password_length = 10
+password_length = int(input("How long of a Password do you whant:\n"))
 password = []
 new_char = ""
 i = 0
