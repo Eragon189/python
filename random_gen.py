@@ -9,7 +9,7 @@ lower_case_charactors = ["q","w","e","r","t","y","u","i","o","p","a","s","d","f"
 special_characters = ["~","`","!","@","#","$","%","^","&","*","(",")","-","_","=","+","{","}","[","]","|","\\","/",":",";","\"","\'","<",">",",",".","?"]
 random_number1 = 0
 for i in range (password_legth):
-    random_number = random.randint(1, 5)  #Generates a random number between 1 and 100
+    random_number = random.randint(1, 3)  #Generates a random number between 1 and 100
     if random_number == 1:
         random_number1 = random.randint(1, 32)
         new_char = special_characters[random_number1]
