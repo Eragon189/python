@@ -20,4 +20,5 @@ for i in range (password_legth):
         random_number1 = random.randint(1, 26)
         new_char == uper_case_charactors[random_number1]
     password.push(new_char)
-print("Your password is " + password)
+
+print("Your password is " + password + ".")
