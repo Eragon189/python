@@ -25,4 +25,4 @@ for i in range(password_length):
 
 # Join password and display
 password_string = "".join(password)
-password_string
+print(password_string)
